@@ -17,6 +17,9 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Adlm			Desktop			Library			Music			Public			drills.py		pymel.log
+Adobe			Documents		MPLABXProjects		New Unity Project	QLData			ipe.properties		xgen
+Applications		Downloads		Movies			Pictures		Things			isus
 
 
 
@@ -28,18 +31,20 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+NOTHING APPEARS ON THE TERMINAL
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
+LS: D: No such file or directory
 
 
 ==========
@@ -50,6 +55,11 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
+documents:
+Ableton			Avid Projects		Max 7			Pd			Smaart v8		eagle
+Adobe			Fritzing		MuseLog.txt		Pro Tools		Temporary Work		iChats
+Adobe Flash Builder 4.7	MATLAB			NewBlue			Processing		Unreal Projects		maya
+Arduino			MakeHuman		ONE GUN.eps		REAPER Media		Untitled
 
 
 ==========
@@ -60,6 +70,10 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+.			.localized		Arduino			MakeHuman		ONE GUN.eps		REAPER Media		Untitled
+..			Ableton			Avid Projects		Max 7			Pd			Smaart v8		eagle
+.DS_Store		Adobe			Fritzing		MuseLog.txt		Pro Tools		Temporary Work		iChats
+.TmThBHyOVRrMJdi0	Adobe Flash Builder 4.7	MATLAB			NewBlue			Processing		Unreal Projects		maya
 
 
 ==========
@@ -72,6 +86,7 @@ What command was repeated?
 
 
 
+<UP><ENTER>
 ==========
 6.  Type:
 
@@ -79,7 +94,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a
 
 
 ==========
@@ -90,7 +105,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+no such file or directory
 
 ==========
 8.  Type:
@@ -100,18 +115,20 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+<up>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
+ls - a
+ls - a documents
 
 
 ==========
@@ -119,18 +136,18 @@ Copy and paste the output below.
 ----------
 
 
-
+tab
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+enter
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+ls desktop
 
 ==========
 14.  Type:
@@ -140,7 +157,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -150,7 +167,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +176,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+-a is flag
+desktop is the argument
+ls is the command
+the terminal is the promt
